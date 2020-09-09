@@ -1,0 +1,372 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Redfine",
+        "description": "",
+        "id": "redfin-functionality;redfine;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6137953300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Connect to \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 12
+                }
+              ],
+              "location": "redfineSteps.connect_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1686414400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open \"url\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 6
+                }
+              ],
+              "location": "redfineSteps.open_something_website(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205177300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter \"Sunnyvale\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 7
+                }
+              ],
+              "location": "redfineSteps.enter_something_to_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75944100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on search",
+            "match": {
+              "location": "redfineSteps.click_on_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 685025900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Did you mean dialogbox pops up",
+            "match": {
+              "location": "redfineSteps.did_you_mean_dialogbox_pops_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5108997500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select \"https://www.redfin.com/city/19457/CA/Sunnyvale\" you want",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.redfin.com/city/19457/CA/Sunnyvale",
+                  "offset": 8
+                }
+              ],
+              "location": "redfineSteps.select_something_you_want(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1058472000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check the displayedCity is same as entered \"Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 44
+                }
+              ],
+              "location": "redfineSteps.check_the_displayedCity_is_same_as_entered(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6306809900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter \"25\" and \"3\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 7
+                },
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "redfineSteps.enter_and_in_the_list(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3426570700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check listed homes are from the \"/CA/Sunnyvale/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/CA/Sunnyvale/",
+                  "offset": 33
+                }
+              ],
+              "location": "redfineSteps.check_listed_homes_are_from_the(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Redfine",
+        "description": "",
+        "id": "redfin-functionality;redfine;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5400032000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Connect to \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 12
+                }
+              ],
+              "location": "redfineSteps.connect_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2007656300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open \"url\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 6
+                }
+              ],
+              "location": "redfineSteps.open_something_website(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162783800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter \"Sunnyvale\" to search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 7
+                }
+              ],
+              "location": "redfineSteps.enter_something_to_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74365400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on search",
+            "match": {
+              "location": "redfineSteps.click_on_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 613792800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Did you mean dialogbox pops up",
+            "match": {
+              "location": "redfineSteps.did_you_mean_dialogbox_pops_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4745030300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select \"https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale\" you want",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale",
+                  "offset": 8
+                }
+              ],
+              "location": "redfineSteps.select_something_you_want(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 470217700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check the displayedCity is same as entered \"Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 44
+                }
+              ],
+              "location": "redfineSteps.check_the_displayedCity_is_same_as_entered(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6286705400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter \"21\" and \"4\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 7
+                },
+                {
+                  "val": "4",
+                  "offset": 16
+                }
+              ],
+              "location": "redfineSteps.enter_and_in_the_list(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3205564100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check listed homes are from the \"/TX/Dallas/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/TX/Dallas/",
+                  "offset": 33
+                }
+              ],
+              "location": "redfineSteps.check_listed_homes_are_from_the(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "RedFin functionality",
+    "description": "",
+    "id": "redfin-functionality",
+    "keyword": "Feature",
+    "uri": "redfinFunct.feature"
+  }
+]

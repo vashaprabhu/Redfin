@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="47.657513">
+<testcase classname="RedFin functionality" name="Redfine" time="24.691365">
+<system-out><![CDATA[Given Connect to "browser"..................................................passed
+When open "url" website.....................................................passed
+Then enter "Sunnyvale" to search............................................passed
+Then click on search........................................................passed
+Then Did you mean dialogbox pops up.........................................passed
+Then select "https://www.redfin.com/city/19457/CA/Sunnyvale" you want.......passed
+Then Check the displayedCity is same as entered "Sunnyvale".................passed
+Then Enter "25" and "3" in the list.........................................passed
+Then check listed homes are from the "/CA/Sunnyvale/".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="RedFin functionality" name="Redfine_2" time="22.966148">
+<system-out><![CDATA[Given Connect to "browser"..................................................passed
+When open "url" website.....................................................passed
+Then enter "Sunnyvale" to search............................................passed
+Then click on search........................................................passed
+Then Did you mean dialogbox pops up.........................................passed
+Then select "https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale" you want.passed
+Then Check the displayedCity is same as entered "Sunnyvale".................passed
+Then Enter "21" and "4" in the list.........................................passed
+Then check listed homes are from the "/TX/Dallas/"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

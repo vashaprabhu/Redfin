@@ -1,0 +1,227 @@
+[
+  {
+    "source": "^Did you mean dialogbox pops up$",
+    "steps": [
+      {
+        "name": "Did you mean dialogbox pops up",
+        "aggregatedDurations": {
+          "average": 0.64940935,
+          "median": 0.64940935
+        },
+        "durations": [
+          {
+            "duration": 0.6850259,
+            "location": "redfinFunct.feature:9"
+          },
+          {
+            "duration": 0.6137928,
+            "location": "redfinFunct.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select \"([^\"]*)\" you want$",
+    "steps": [
+      {
+        "name": "select \"https://www.redfin.com/city/19457/CA/Sunnyvale\" you want",
+        "aggregatedDurations": {
+          "average": 5.1089975,
+          "median": 5.1089975
+        },
+        "durations": [
+          {
+            "duration": 5.1089975,
+            "location": "redfinFunct.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "select \"https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale\" you want",
+        "aggregatedDurations": {
+          "average": 4.7450303,
+          "median": 4.7450303
+        },
+        "durations": [
+          {
+            "duration": 4.7450303,
+            "location": "redfinFunct.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Check the displayedCity is same as entered \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Check the displayedCity is same as entered \"Sunnyvale\"",
+        "aggregatedDurations": {
+          "average": 0.76434485,
+          "median": 0.76434485
+        },
+        "durations": [
+          {
+            "duration": 1.058472,
+            "location": "redfinFunct.feature:11"
+          },
+          {
+            "duration": 0.4702177,
+            "location": "redfinFunct.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter \"([^\"]*)\" to search$",
+    "steps": [
+      {
+        "name": "enter \"Sunnyvale\" to search",
+        "aggregatedDurations": {
+          "average": 0.18398055,
+          "median": 0.18398055
+        },
+        "durations": [
+          {
+            "duration": 0.2051773,
+            "location": "redfinFunct.feature:7"
+          },
+          {
+            "duration": 0.1627838,
+            "location": "redfinFunct.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Connect to \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Connect to \"browser\"",
+        "aggregatedDurations": {
+          "average": 5.76899265,
+          "median": 5.76899265
+        },
+        "durations": [
+          {
+            "duration": 6.1379533,
+            "location": "redfinFunct.feature:5"
+          },
+          {
+            "duration": 5.400032,
+            "location": "redfinFunct.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on search$",
+    "steps": [
+      {
+        "name": "click on search",
+        "aggregatedDurations": {
+          "average": 0.07515475,
+          "median": 0.07515475
+        },
+        "durations": [
+          {
+            "duration": 0.0759441,
+            "location": "redfinFunct.feature:8"
+          },
+          {
+            "duration": 0.0743654,
+            "location": "redfinFunct.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter \"([^\"]*)\" and \"([^\"]*)\" in the list$",
+    "steps": [
+      {
+        "name": "Enter \"25\" and \"3\" in the list",
+        "aggregatedDurations": {
+          "average": 6.3068099,
+          "median": 6.3068099
+        },
+        "durations": [
+          {
+            "duration": 6.3068099,
+            "location": "redfinFunct.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "Enter \"21\" and \"4\" in the list",
+        "aggregatedDurations": {
+          "average": 6.2867054,
+          "median": 6.2867054
+        },
+        "durations": [
+          {
+            "duration": 6.2867054,
+            "location": "redfinFunct.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^open \"([^\"]*)\" website$",
+    "steps": [
+      {
+        "name": "open \"url\" website",
+        "aggregatedDurations": {
+          "average": 1.84703535,
+          "median": 1.84703535
+        },
+        "durations": [
+          {
+            "duration": 1.6864144,
+            "location": "redfinFunct.feature:6"
+          },
+          {
+            "duration": 2.0076563,
+            "location": "redfinFunct.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^check listed homes are from the \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "check listed homes are from the \"/CA/Sunnyvale/\"",
+        "aggregatedDurations": {
+          "average": 3.4265707,
+          "median": 3.4265707
+        },
+        "durations": [
+          {
+            "duration": 3.4265707,
+            "location": "redfinFunct.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "check listed homes are from the \"/TX/Dallas/\"",
+        "aggregatedDurations": {
+          "average": 3.2055641,
+          "median": 3.2055641
+        },
+        "durations": [
+          {
+            "duration": 3.2055641,
+            "location": "redfinFunct.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

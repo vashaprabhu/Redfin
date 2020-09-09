@@ -1,0 +1,36 @@
+Feature: RedFin functionality
+
+  Scenario Outline: Redfine                                   [90m# redfinFunct.feature:4[0m
+    [36mGiven [0m[36mConnect to "browser"[0m
+    [36mWhen [0m[36mopen "url" website[0m
+    [36mThen [0m[36menter "<place>" to search[0m
+    [36mThen [0m[36mclick on search[0m
+    [36mThen [0m[36mDid you mean dialogbox pops up[0m
+    [36mThen [0m[36mselect "<city>" you want[0m
+    [36mThen [0m[36mCheck the displayedCity is same as entered "<place>"[0m
+    [36mThen [0m[36mEnter "<minPrice>" and "<maxPrice>" in the list[0m
+    [36mThen [0m[36mcheck listed homes are from the "<SameCity>"[0m
+
+    Examples: 
+
+  Scenario Outline: Redfine                                               [90m# redfinFunct.feature:17[0m
+    [32mGiven [0m[32mConnect to "[0m[32m[1mbrowser[0m[32m"[0m                                            [90m# redfineSteps.connect_to_something(String)[0m
+    [32mWhen [0m[32mopen "[0m[32m[1murl[0m[32m" website[0m                                               [90m# redfineSteps.open_something_website(String)[0m
+    [32mThen [0m[32menter "[0m[32m[1mSunnyvale[0m[32m" to search[0m                                      [90m# redfineSteps.enter_something_to_search(String)[0m
+    [32mThen [0m[32mclick on search[0m                                                  [90m# redfineSteps.click_on_search()[0m
+    [32mThen [0m[32mDid you mean dialogbox pops up[0m                                   [90m# redfineSteps.did_you_mean_dialogbox_pops_up()[0m
+    [32mThen [0m[32mselect "[0m[32m[1mhttps://www.redfin.com/city/19457/CA/Sunnyvale[0m[32m" you want[0m [90m# redfineSteps.select_something_you_want(String)[0m
+    [32mThen [0m[32mCheck the displayedCity is same as entered "[0m[32m[1mSunnyvale[0m[32m"[0m           [90m# redfineSteps.check_the_displayedCity_is_same_as_entered(String)[0m
+    [32mThen [0m[32mEnter "[0m[32m[1m25[0m[32m" and "[0m[32m[1m3[0m[32m" in the list[0m                                   [90m# redfineSteps.enter_and_in_the_list(String,String)[0m
+    [32mThen [0m[32mcheck listed homes are from the "[0m[32m[1m/CA/Sunnyvale/[0m[32m"[0m                 [90m# redfineSteps.check_listed_homes_are_from_the(String)[0m
+
+  Scenario Outline: Redfine                                                               [90m# redfinFunct.feature:18[0m
+    [32mGiven [0m[32mConnect to "[0m[32m[1mbrowser[0m[32m"[0m                                                            [90m# redfineSteps.connect_to_something(String)[0m
+    [32mWhen [0m[32mopen "[0m[32m[1murl[0m[32m" website[0m                                                               [90m# redfineSteps.open_something_website(String)[0m
+    [32mThen [0m[32menter "[0m[32m[1mSunnyvale[0m[32m" to search[0m                                                      [90m# redfineSteps.enter_something_to_search(String)[0m
+    [32mThen [0m[32mclick on search[0m                                                                  [90m# redfineSteps.click_on_search()[0m
+    [32mThen [0m[32mDid you mean dialogbox pops up[0m                                                   [90m# redfineSteps.did_you_mean_dialogbox_pops_up()[0m
+    [32mThen [0m[32mselect "[0m[32m[1mhttps://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale[0m[32m" you want[0m [90m# redfineSteps.select_something_you_want(String)[0m
+    [32mThen [0m[32mCheck the displayedCity is same as entered "[0m[32m[1mSunnyvale[0m[32m"[0m                           [90m# redfineSteps.check_the_displayedCity_is_same_as_entered(String)[0m
+    [32mThen [0m[32mEnter "[0m[32m[1m21[0m[32m" and "[0m[32m[1m4[0m[32m" in the list[0m                                                   [90m# redfineSteps.enter_and_in_the_list(String,String)[0m
+    [32mThen [0m[32mcheck listed homes are from the "[0m[32m[1m/TX/Dallas/[0m[32m"[0m                                    [90m# redfineSteps.check_listed_homes_are_from_the(String)[0m
